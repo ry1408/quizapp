@@ -1,0 +1,2 @@
+<a href="<?php echo e(aurl('exam/' . $id)); ?>" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></a>
+<?php /**PATH E:\xampp\htdocs\quizapp\resources\views/admin/exams/actions/view.blade.php ENDPATH**/ ?>

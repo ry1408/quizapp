@@ -1,0 +1,2 @@
+<a href="<?php echo e(aurl('review/' . $id . '/edit')); ?>" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+<?php /**PATH E:\xampp\htdocs\quizapp\resources\views/admin/reviews/actions/edit.blade.php ENDPATH**/ ?>
