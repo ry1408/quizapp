@@ -20,7 +20,7 @@ class CreateReviewsTable extends Migration
             $table->string('position',150)->nullable();
             $table->string('number_of_star',150)->nullable();
             $table->string('subject',150)->nullable();
-            $table->string('description',150)->nullable();
+            $table->string('description',250)->nullable();
             $table->string('image', 250)->nullable();
             $table->timestamps();
         });

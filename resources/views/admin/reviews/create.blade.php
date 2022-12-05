@@ -30,7 +30,7 @@
 
             <div class="form-group">
                 {{ Form::label('image', trans('Image')) }}
-                {{ Form::file('image', old('image'), ['class' => 'form-control']) }}
+                {{ Form::file('image',['class' => 'form-control']) }}
             </div>
             {{ Form::submit(trans('Add Review'), ['class' => 'btn btn-primary']) }}
             {!! Form::close() !!}

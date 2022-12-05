@@ -42,7 +42,7 @@
             <div class="form-group">
                 <?php echo e(Form::label('image', trans('Image'))); ?>
 
-                <?php echo e(Form::file('image', old('image'), ['class' => 'form-control'])); ?>
+                <?php echo e(Form::file('image',['class' => 'form-control'])); ?>
 
             </div>
             <?php echo e(Form::submit(trans('Add Review'), ['class' => 'btn btn-primary'])); ?>

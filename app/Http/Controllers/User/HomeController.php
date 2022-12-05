@@ -139,6 +139,9 @@ class HomeController extends Controller
     public function homeIndex()
     {
         $banner_images = DB::table('banners')->select('id', 'name', 'banner_image')->get();
-        return view('style.home.index', compact('banner_images'));
+        $board_images = DB::table('boards')->select('id', 'board_name', 'image')->get();
+        $reviews = DB::table('reviews')->select('id', 'name','position','number_of_star', 'subject','description','image')->get();
+
+        return view('style.home.index', compact('banner_images','board_images','reviews'));
     }
 }
